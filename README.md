@@ -6,7 +6,7 @@
 [![캣코독 시연 영상](http://img.youtube.com/vi/8TGcXP2G_N4/0.jpg)](https://www.youtube.com/watch?v=8TGcXP2G_N4)
  
 ## 개발인원 및 기간
-2022년 5월 30일 월요일 ~ 6월 3일 금요일
+2022년 5월 23일 월요일 ~ 6월 3일 금요일
 - [github 프론트엔드 저장소](https://github.com/wecode-bootcamp-korea/33-1st-CatCoDog-frontend)
 - [github 백엔드 저장소](https://github.com/wecode-bootcamp-korea/33-1st-CatCoDog-backend)
 

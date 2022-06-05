@@ -15,6 +15,9 @@
 ### 프론트엔드 팀원
 안성주, 남하임, 정재성, 윤경연, 김철회
 
+## 데이터 ERD
+![](https://velog.velcdn.com/images/stresszero/post/54321f3f-a31d-415d-a046-3ac7b461bd19/image.PNG)
+
 ## 적용 기술 및 구현 기능
 - Front-End : React.js, sass
 - Back-End : Python, Django web framework

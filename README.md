@@ -13,7 +13,7 @@
 ### 백엔드 팀원
 강세영, 박준형
 ### 프론트엔드 팀원
-안성주, 남하임, 정재성, 윤경연, 김철회
+안성주(PM), 남하임, 정재성, 윤경연, 김철회
 
 ## 데이터베이스 ERD
 ![](https://velog.velcdn.com/images/stresszero/post/54321f3f-a31d-415d-a046-3ac7b461bd19/image.PNG)

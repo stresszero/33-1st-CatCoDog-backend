@@ -76,6 +76,6 @@ class SignInView(View):
 
         except User.DoesNotExist:
             return JsonResponse({"message": "INVALID_USER"}, status=401)
-            
+
         except json.JSONDecodeError:
             return JsonResponse({"message": "JSON_DECODE_ERROR"}, status=400)

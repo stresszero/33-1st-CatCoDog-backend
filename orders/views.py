@@ -62,7 +62,7 @@ class CartView(View):
                 quantity          = quantity,
             )
             return JsonResponse({"message": "CART_CREATED"}, status=201)
-            
+
         except KeyError:
             return JsonResponse({"message": "KEY_ERROR"}, status=400)
 
@@ -76,10 +76,10 @@ class CartView(View):
             user                  = request.user
             product_option_id     = data['product_option_id']
             quantity              = data['quantity']
-            
+
             if not Cart.objects.filter(user=user, product_option_id=product_option_id).exists():
                 return JsonResponse({"message": "CART_NOT_EXIST"}, status=404)
-            
+
             cart          = Cart.objects.get(user=user, product_option_id=product_option_id)
             cart.quantity = quantity
             cart.save()

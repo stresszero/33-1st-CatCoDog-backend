@@ -44,8 +44,8 @@ class ProductListView(View):
         sales_sum    = Product.objects.annotate(sales_sum=Sum('options__items__quantity')).filter(pk=OuterRef('pk'))
 
         products = Product.objects.filter(q).prefetch_related('options', 'reviews').annotate\
-                (review_count=review_count.values('review_count'), sales_sum=sales_sum.values('sales_sum'))\
-                .order_by(sort).distinct()[offset:offset+limit]
+                    (review_count=review_count.values('review_count'), sales_sum=sales_sum.values('sales_sum'))\
+                    .order_by(sort).distinct()[offset:offset+limit]
 
         product_list = [{
             "product_id"      : product.id,
